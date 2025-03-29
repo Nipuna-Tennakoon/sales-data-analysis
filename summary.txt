@@ -15,5 +15,7 @@ eda visualization notebook
 - the price variation has temporal pattern
 - visualized the quantity of each product sold within a month
 - the demand for our products is high in Monday and Tuesday. less demand in sunday
-
+- plot price variation for selected five products taking the whole data set 
+- plot quantity/ number of products sold of top five products taking the whole data set
+- save dataframes for prediction purposes
 
