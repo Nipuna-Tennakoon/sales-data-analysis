@@ -1,0 +1,19 @@
+This file map the project life cycle. All the decisions that I made under this project, I am highlighting here for the traceability.
+
+eda visualization notebook
+- carry a data analysis on data set to see the data behaviour
+- imported data set 
+- imported libraries for dataframes and visualization
+- first analysis is to sales data set 
+- descriptive analysis on sales data set
+- number of products in the data set is much bigger
+- did analysis on first five of products of high price
+- the number of sales is very low in high values products
+- therefore, choosed most frequent/ high demand first five products
+- visualized the price of first five frequent products
+- it showed some temporal pattern. visualized the price of each product within a month
+- the price variation has temporal pattern
+- visualized the quantity of each product sold within a month
+- the demand for our products is high in Monday and Tuesday. less demand in sunday
+
+
