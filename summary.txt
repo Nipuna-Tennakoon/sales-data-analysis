@@ -24,3 +24,4 @@ ts-analysis notebook
 - conducetd stationarity test for selling price
 - product A did not stationary but others did
 - the demand for all five products is non-stationary
+- obtained acf and pacf for both data frames
