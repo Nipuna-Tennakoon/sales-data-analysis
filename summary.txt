@@ -18,4 +18,5 @@ eda visualization notebook
 - plot price variation for selected five products taking the whole data set 
 - plot quantity/ number of products sold of top five products taking the whole data set
 - save dataframes for prediction purposes
+- created notebook for time series analysis
 
