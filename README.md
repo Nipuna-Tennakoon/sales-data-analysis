@@ -1,12 +1,13 @@
-# Sales Demand Prediction Project
+# Sales Demand & Product Price Prediction Project
 
 This project focuses on analyzing sales data to understand patterns in product demand and price variations. The insights gained are used to prepare data for predictive modeling.
 
 ## Project Overview
 
-The project is divided into two main phases:
+The project is divided into three main phases:
 1. **Exploratory Data Analysis (EDA)**
 2. **Time Series Analysis (TS Analysis)**
+3. **Training and Model Development**
 
 ---
 
@@ -48,10 +49,26 @@ The TS Analysis phase focuses on preparing the data for predictive modeling by a
 
 ---
 
+## 3. Training and Model Development
+
+The training phase focuses on building predictive models for sales demand forecasting.
+
+### Steps:
+- Set the objectives for the modeling phase.
+- Used the price dataset for modeling after transforming it into a stationary series.
+- Developed an ARIMA model for forecasting.
+- Tuned the model to obtain the optimal `forecasting_length` and ARIMA parameters (`p`, `d`, `q`).
+
+### Outputs:
+- Optimal ARIMA parameters and forecasting length identified for accurate predictions.
+
+---
+
 ## Files in the Repository
 
 - **`eda-visualization.ipynb`**: Notebook for exploratory data analysis and visualizations.
 - **`ts-analysis.ipynb`**: Notebook for time series analysis and preparation for predictive modeling.
+- **`training.ipynb`**: Notebook for training and model development.
 - **`summary.txt`**: Document summarizing the project lifecycle and decisions made.
 
 ---
@@ -69,3 +86,12 @@ The TS Analysis phase focuses on preparing the data for predictive modeling by a
 1. Clone the repository:
    ```bash
    git clone <repository-url>
+   ```
+2. Open the notebooks (`eda-visualization.ipynb`, `ts-analysis.ipynb`, and `training.ipynb`) in Jupyter Notebook or VS Code.
+3. Follow the steps in each notebook to reproduce the analysis and modeling.
+
+---
+
+## License
+
+This project is for educational purposes. Please contact the author for permissions regarding commercial use.
