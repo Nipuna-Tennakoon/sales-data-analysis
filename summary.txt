@@ -28,3 +28,9 @@ ts-analysis notebook
 - need to transform non-stationary series to stationary
 - saved data set as pivot tables to training purposes
 
+training notebook
+- initially I set the objectives
+- price data set is used to for modeling
+- transformed to stationary 
+- developed ARIMA model
+- obtained the optimal forecasting_length and ARIMA p,d,q parameters
