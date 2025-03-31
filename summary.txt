@@ -25,3 +25,6 @@ ts-analysis notebook
 - product A did not stationary but others did
 - the demand for all five products is non-stationary
 - obtained acf and pacf for both data frames
+- need to transform non-stationary series to stationary
+- saved data set as pivot tables to training purposes
+
